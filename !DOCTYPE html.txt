@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Londiwe Mngoma's Personal Page</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .main-content, .sidebar {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .main-content {
+            flex: 2;
+            margin-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        h1, h2 {
+            margin: 0 0 10px 0;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; background: #333; color: #fff; padding: 10px 0;">Londiwe Mngoma</h1>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am Londiwe Mngoma, currently pursuing a Bachelor of Science in Biological Science at the University of The Witwatersrand. I have a National Senior Certificate with an overall average of over 70%. I plan to further my studies in chemical pathology at an honours level. My hobbies include playing chess and spending quality time with friends.</p>
+            </section>
+            <section id="academic">
+                <h2>Academic Background</h2>
+                <p>I hold a National Senior Certificate with an overall average of over 70%. Currently, I am enrolled in a Bachelor of Science in Biological Science program at the University of The Witwatersrand. I aim to specialize in chemical pathology at the honours level in the future.</p>
+            </section>
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:londiwemngoma005@gmail.com">londiwemngoma005@gmail.com</a></p>
+                <p>Cellphone: +27647927379</p>
+            </section>
+        </div>
+        <div class="sidebar">
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Computer literacy</li>
+                    <li>Researching skills</li>
+                    <li>Ability to work under pressure</li>
+                    <li>Teamwork</li>
+                    <li>Goal-driven</li>
+                    <li>Bilingual</li>
+                    <li>Fast learner</li>
+                    <li>Dependable</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
